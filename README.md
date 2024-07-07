@@ -39,8 +39,6 @@ Bootstrap
    ```
 
 
-
-Feel free to customize this description as needed.
 # Usage
 Access the application at http://127.0.0.1:8000/
 Register a new user or log in with existing credentials
