@@ -13,33 +13,38 @@ Django
 HTML/CSS
 Bootstrap
 
-# Setup Instructions
-Clone the repository:
-sh
-Copy code
-git clone https://github.com/Usman6768/Django-Full-Stack.git
-cd Django-Full-Stack
-Create a virtual environment and activate it:
-sh
-Copy code
-python -m venv env
-source env/bin/activate
-Install the required dependencies:
-sh
-Copy code
-pip install -r requirements.txt
-Apply migrations:
-sh
-Copy code
-python manage.py migrate
-Run the development server:
-sh
-Copy code
-python manage.py runserver
+## Setup Instructions
 
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Usman6768/Django-Full-Stack.git
+   cd Django-Full-Stack
+   ```
+2. Create a virtual environment and activate it:
+   ```sh
+   python -m venv env
+   source env/bin/activate
+   ```
+3. Install the required dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Apply migrations:
+   ```sh
+   python manage.py migrate
+   ```
+5. Run the development server:
+   ```sh
+   python manage.py runserver
+   ```
+
+
+
+Feel free to customize this description as needed.
 # Usage
 Access the application at http://127.0.0.1:8000/
 Register a new user or log in with existing credentials
 Explore the full-stack features and functionalities
-Contributing
+
+# Contributing
 Contributions are welcome! Feel free to submit issues and pull requests.
